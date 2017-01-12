@@ -1,0 +1,23 @@
+{
+    "name": "yangyifan/sms-helper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yangyifan",
+            "email": "yangyifanphp@gmail.com"
+        }
+    ],
+    "require": {
+        "yangyifan/config-helper": "v0.1",
+        "yangyifan/library-helper": "v0.1",
+        "yangyifan/exception-helper": "v0.1"
+    },
+  "autoload": {
+    "psr-4": {
+      "Yangyifan\\Sms\\": "./src"
+    }
+  },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}

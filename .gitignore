@@ -1,0 +1,5 @@
+# Created by .ignore support plugin (hsz.mobi)
+.DS_Store
+vendor
+composer.lock
+/tests/.yunpian_api_key
