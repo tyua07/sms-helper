@@ -113,13 +113,13 @@ trait Sms
     /**
      * 发送短信之后执行的事件
      *
-     * @param $response
+     * @param array $response
      * @return boolean
      */
     protected function afterEvent($response)
     {
         // 记录日志
-        LogLibrary::debug(LogLibrary::SMS_LOG, $response);
+        LogLibrary::debug(LogLibrary::SMS_LOG, json_encode($response));
 
         return true;
     }
