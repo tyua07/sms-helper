@@ -4,7 +4,7 @@
 ### 开始
 
 * 安装 ``` composer require yangyifan/sms-helper:v0.1 ```
-* 添加 ``` \Yangyifan\Sms\SmsProvider::class ``` 到 ```/config/app.php``` 文件的 
+* 添加 ``` \Yangyifan\Sms\SmsServiceProvider::class ``` 到 ```/config/app.php``` 文件的 
 * 执行 ```php artisan vendor:publish```
 
 ### 发送短信
